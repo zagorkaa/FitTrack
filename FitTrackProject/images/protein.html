@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit Track - Protein</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>
+<header id="header">
+    <div class="header-container">
+        <a href="index.html" class="logo">FIT <span class="logo-flash"><i class="fa-solid fa-bolt"></i></span> TRACK</a>
+
+        <div class="header-navigation-block">
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="products.html" class="active">Products <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="products.html">All products</a></li>
+                            <li><a href="protein.html" class="active">Protein</a></li>
+                            <li><a href="supplements.html">Supplements</a></li>
+                            <li><a href="equipment.html">Equipment</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-right">
+                <form class="search-box" action="#" role="search">
+                    <input type="search" placeholder="Search products..." aria-label="Search products">
+                    <button type="submit" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                <a href="login.html" class="icon-link" aria-label="Account"><i class="fa-regular fa-user"></i></a>
+                <a href="cart.html" class="icon-link" aria-label="Shopping cart"><i class="fa-solid fa-bag-shopping"></i></a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="products-page-wrapper">
+    <h1 class="page-title">PROTEIN</h1>
+
+    <div class="products-layout-grid">
+        <aside class="sidebar">
+            <div class="categories">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="products.html">All-products</a></li>
+                    <li class="selected"><a href="protein.html" aria-current="page">Protein</a></li>
+                    <li><a href="pre-workout.html">Pre-workout</a></li>
+                    <li><a href="creatine.html">Creatine</a></li>
+                    <li><a href="vitamins.html">Vitamins &amp; Health</a></li>
+                    <li><a href="accessories.html">Accessories</a></li>
+                </ul>
+            </div>
+
+            <div class="filter">
+                <h3>Filter by</h3>
+                <label class="filter-heading" for="price-range">Price</label>
+                <input id="price-range" type="range" min="0" max="150" value="75">
+                <div class="price-range"><span>$0</span><span>$150</span></div>
+
+                <details class="filter-dropdown">
+                    <summary>Brand</summary>
+                    <label><input type="checkbox"> Cellucor</label>
+                    <label><input type="checkbox"> Optimum Nutrition</label>
+                    <label><input type="checkbox"> Dymatize</label>
+                    <label><input type="checkbox"> Integralmedica</label>
+                </details>
+
+                <details class="filter-dropdown">
+                    <summary>Flavour</summary>
+                    <label><input type="checkbox"> Chocolate</label>
+                    <label><input type="checkbox"> Vanilla</label>
+                    <label><input type="checkbox"> Strawberry</label>
+                    <label><input type="checkbox"> Unflavoured</label>
+                </details>
+
+                <button class="clear-btn" type="reset" onclick="this.closest('.sidebar').querySelectorAll('input[type=checkbox]').forEach(input => input.checked = false); document.getElementById('price-range').value = 75;">Clear filters</button>
+            </div>
+        </aside>
+
+        <section class="products-container" aria-label="Protein products">
+            <div class="top-bar">
+                <div class="top-bar-copy">
+                    <p class="breadcrumbs"><a href="index.html">Home</a> &gt; <a href="products.html">Products</a> &gt; Protein</p>
+                    <h2>Protein Powders</h2>
+                    <span class="results-count">Showing 1-4 of 16 results</span>
+                </div>
+
+                <label class="sort-label">
+                    <span class="visually-hidden">Sort products</span>
+                    <select>
+                        <option>Sort by: Featured</option>
+                        <option>Price: Low to High</option>
+                        <option>Price: High to Low</option>
+                        <option>Name: A to Z</option>
+                    </select>
+                </label>
+            </div>
+
+            <div class="products-grid">
+                <article class="product-card">
+                    <a href="#" class="product-image-link" aria-label="View Cellucor COR Performance Whey">
+                        <img src="images/whey1-removebg-preview.png" alt="Cellucor COR Performance Whey protein tub">
+                    </a>
+                    <h3>Cellucor COR-Performance Whey - 4 lbs</h3>
+                    <p class="product-price">$59.99</p>
+                </article>
+
+                <article class="product-card">
+                    <a href="#" class="product-image-link" aria-label="View Integralmedica Nutri Whey">
+                        <img src="images/whey2-removebg-preview.png" alt="Integralmedica Nutri Whey protein pouch">
+                    </a>
+                    <h3>Integralmedica Nutri Whey Protein - 300g</h3>
+                    <p class="product-price">$7.99</p>
+                </article>
+
+                <article class="product-card">
+                    <a href="#" class="product-image-link" aria-label="View Optimum Nutrition Gold Standard Whey">
+                        <img src="images/whey5-removebg-preview.png" alt="Optimum Nutrition Gold Standard Whey protein tub">
+                    </a>
+                    <h3>Optimum Nutrition Gold Standard Whey - 2 lbs</h3>
+                    <p class="product-price">$42.00</p>
+                </article>
+
+                <article class="product-card">
+                    <a href="#" class="product-image-link" aria-label="View protein powder">
+                        <img src="images/whey6-removebg-preview.png" alt="Protein powder product">
+                    </a>
+                    <h3>Premium Whey Protein Powder</h3>
+                    <p class="product-price">$34.99</p>
+                </article>
+            </div>
+        </section>
+    </div>
+</main>
+
+<footer>
+    <div class="footer-item">
+        <i class="fa-solid fa-truck-fast"></i>
+        <div><h4>Fast and free shipping</h4><p>On orders over $75</p></div>
+    </div>
+    <div class="footer-item">
+        <i class="fa-solid fa-shield"></i>
+        <div><h4>100% authentic</h4><p>Original products only</p></div>
+    </div>
+    <div class="footer-item">
+        <i class="fa-solid fa-rotate-left"></i>
+        <div><h4>Easy returns</h4><p>30-day return policy</p></div>
+    </div>
+    <div class="footer-item">
+        <i class="fa-solid fa-headset"></i>
+        <div><h4>Support</h4><p>We're here to help</p></div>
+    </div>
+</footer>
+</body>
+</html>

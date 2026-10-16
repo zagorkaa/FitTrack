@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit Track - Protein</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>
+<header id="header">
+    <div class="header-container">
+        <a href="index.html" class="logo">FIT <span class="logo-flash"><i class="fa-solid fa-bolt"></i></span> TRACK</a>
+
+        <div class="header-navigation-block">
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="products.html" class="active">Products <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="products.html">All products</a></li>
+                            <li><a href="protein.html" class="active">Protein</a></li>
+                            <li><a href="supplements.html">Supplements</a></li>
+                            <li><a href="equipment.html">Equipment</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-right">
+                <form class="search-box" action="#" role="search">
+                    <input type="search" placeholder="Search products..." aria-label="Search products">
+                    <button type="submit" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                <a href="login.html" class="icon-link" aria-label="Account"><i class="fa-regular fa-user"></i></a>
+                <a href="cart.html" class="icon-link" aria-label="Shopping cart"><i class="fa-solid fa-bag-shopping"></i></a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="products-page-wrapper">
+    <h1 class="page-title">PROTEIN</h1>
+
+    <div class="products-layout-grid">
+        <aside class="sidebar">
+            <!-- ######Starts from here###### -->
+            <div class="categories">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="products.html">All-products</a></li>
+                    <li class="selected"><a href="protein.html" data-category="protein" aria-current="page">Protein</a></li>
+                    <li><a href="products.html?category=pre-workout">Pre-workout</a></li>
+                    <li><a href="products.html?category=creatine">Creatine</a></li>
+                    <li><a href="products.html?category=vitamins">Vitamins &amp; Health</a></li>
+                    <li><a href="products.html?category=accessories">Accessories</a></li>
+                </ul>
+            </div>
+
+            <div class="filter">
+                <h3>Filter by</h3>
+                <label class="filter-heading" for="price-range">Price</label>
+                <input id="price-range" type="range" min="0" max="150" step="1" value="150">
+                <div class="price-range"><span>$0</span><span id="price-maximum">$150</span></div>
+
+                <details class="filter-dropdown">
+                    <summary>Brand</summary>
+                    <label><input type="checkbox" name="brand" value="cellucor"> Cellucor</label>
+                    <label><input type="checkbox" name="brand" value="optimum"> Optimum Nutrition</label>
+                    <label><input type="checkbox" name="brand" value="dymatize"> Dymatize</label>
+                    <label><input type="checkbox" name="brand" value="integralmedica"> Integralmedica</label>
+                    <label><input type="checkbox" name="brand" value="apex"> Apex Labs</label>
+                    <label><input type="checkbox" name="brand" value="pronutra"> ProNutra</label>
+                    <label><input type="checkbox" name="brand" value="titan"> Titan Science</label>
+                    <label><input type="checkbox" name="brand" value="vanguard"> Vanguard</label>
+                    <label><input type="checkbox" name="brand" value="biofuel"> BioFuel</label>
+                    <label><input type="checkbox" name="brand" value="zenith"> Zenith</label>
+                </details>
+
+                <details class="filter-dropdown">
+                    <summary>Flavour</summary>
+                    <label><input type="checkbox" name="flavour" value="chocolate"> Chocolate</label>
+                    <label><input type="checkbox" name="flavour" value="vanilla"> Vanilla</label>
+                    <label><input type="checkbox" name="flavour" value="strawberry"> Strawberry</label>
+                    <label><input type="checkbox" name="flavour" value="unflavoured"> Unflavoured</label>
+                </details>
+
+                <button class="clear-btn" id="clear-filters" type="button">Clear filters</button>
+            </div>
+            <!-- ######Ends here###### -->
+        </aside>
+
+        <section class="products-container" aria-label="Protein products">
+            <div class="top-bar">
+                <div class="top-bar-copy">
+                    <p class="breadcrumbs"><a href="index.html">Home</a> &gt; <a href="products.html">Products</a> &gt; Protein</p>
+                    <h2>Protein Powders</h2>
+                    <span class="results-count">Showing 1-7 of 16 results</span>
+                </div>
+
+                <label class="sort-label">
+                    <span class="visually-hidden">Sort products</span>
+                    <select>
+                        <option>Sort by: Featured</option>
+                        <option>Price: Low to High</option>
+                        <option>Price: High to Low</option>
+                        <option>Name: A to Z</option>
+                    </select>
+                </label>
+            </div>
+
+            <!-- ######Starts from here###### -->
+            <div class="products-grid">
+                <article class="product-card" data-category="protein" data-brand="apex" data-flavour="vanilla" data-price="38.50">
+                    <a href="#" class="product-image-link" aria-label="View Cellucor COR-Performance Whey">
+                        <img src="images/whey1-removebg-preview.png" alt="Cellucor COR-Performance Whey">
+                    </a>
+                    <h3>Apex Labs Isolate Matrix - 2 lbs</h3>
+                    <p class="product-price">$38.50</p>
+                </article>
+
+                <article class="product-card" data-category="protein" data-brand="pronutra" data-flavour="unflavoured" data-price="52.99">
+                    <a href="#" class="product-image-link" aria-label="View Integralmedica Nutri Whey">
+                        <img src="images/whey2-removebg-preview.png" alt="Integralmedica Nutri Whey protein pouch">
+                    </a>
+                    <h3>ProNutra Clean Grass-Fed Whey - 2.5 lbs</h3>
+                    <p class="product-price">$52.99</p>
+                </article>
+
+                <article class="product-card" data-category="protein" data-brand="titan" data-flavour="strawberry" data-price="46.75">
+                    <a href="#" class="product-image-link" aria-label="View Optimum Nutrition Gold Standard Whey">
+                        <img src="images/whey5-removebg-preview.png" alt="Optimum Nutrition Gold Standard Whey protein tub">
+                    </a>
+                    <h3>Titan Science Hydrolite Whey - 2 lbs</h3>
+                    <p class="product-price">$46.75</p>
+                </article>
+
+                <article class="product-card" data-category="protein" data-brand="vanguard" data-flavour="chocolate" data-price="64.99">
+                    <a href="#" class="product-image-link" aria-label="View protein powder">
+                        <img src="images/whey6-removebg-preview.png" alt="Protein powder product">
+                    </a>
+                    <h3>Vanguard Core Whey Complex - 5 lbs</h3>
+                    <p class="product-price">$64.99</p>
+                </article>
+
+                <div class="product-card" data-category="protein" data-brand="integralmedica" data-flavour="chocolate" data-price="7.99">
+                    <img src="images/wheyChocolate.png" alt="Protein">
+                    <h4>Integralmédica Nutri Whey Protein - 300g</h4>
+                    <p>$7.99</p>
+                </div>
+
+                <div class="product-card" data-category="protein" data-brand="biofuel" data-flavour="unflavoured" data-price="29.99">
+                    <img src="images/whey4-removebg-preview.png" alt="Protein">
+                    <h4>BioFuel Native Whey Concentrate - 1 kg</h4>
+                    <p>$29.99</p>
+                </div>
+
+                <div class="product-card" data-category="protein" data-brand="zenith" data-flavour="vanilla" data-price="18.50">
+                    <img src="images/whey3-removebg-preview.png" alt="Protein">
+                    <h4>Zenith Performance Plant & Whey Blend - 450g</h4>
+                    <p>$18.50</p>
+                </div>
+
+                <p id="no-results" style="display: none; color: #ccc;">No products match the selected filters.</p>
+            </div>
+            <!-- ######Ends here###### -->
+        </section>
+    </div>
+</main>
+
+<footer>
+    <div class="footer-item">
+        <i class="fa-solid fa-truck-fast"></i>
+        <div><h4>Fast and free shipping</h4><p>On orders over $75</p></div>
+    </div>
+    <div class="footer-item">
+        <i class="fa-solid fa-shield"></i>
+        <div><h4>100% authentic</h4><p>Original products only</p></div>
+    </div>
+    <div class="footer-item">
+        <i class="fa-solid fa-rotate-left"></i>
+        <div><h4>Easy returns</h4><p>30-day return policy</p></div>
+    </div>
+    <div class="footer-item">
+        <i class="fa-solid fa-headset"></i>
+        <div><h4>Support</h4><p>We're here to help</p></div>
+    </div>
+</footer>
+
+<!-- ######Starts from here###### -->
+<script src="products.js"></script>
+<!-- ######Ends here###### -->
+</body>
+</html>

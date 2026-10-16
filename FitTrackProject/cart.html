@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fit Track - Products</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+
+<header id="header">
+    <div class="header-container">
+        <a href="index.html" class="logo">FIT <span class="logo-flash"><i class="fa-solid fa-bolt"></i></span> TRACK</a>
+
+        <div class="header-navigation-block">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="products.html" class="active">Products <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="equipment.html">Equipment</a></li>
+                            <li><a href="supplements.html">Supplements</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-right">
+                <div class="search-box">
+                    <input type="text" placeholder="Search products...">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <a href="login.html" class="icon-link"><i class="fa-regular fa-user"></i></a>
+                <a href="cart.html" class="icon-link"><i class="fa-solid fa-bag-shopping"></i></a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="page-content">
+    <div class="header-title">CHECKOUT</div>
+
+    <div class="steps-bar">
+        <span class="step active">1.SHIPPING</span>
+        <div class="step-line"></div>
+        <span class="step">2.PAYMENT</span>
+        <div class="step-line"></div>
+        <span class="step">3.REVIEW</span>
+    </div>
+
+    <div class="checkout-container">
+
+        <div class="checkout-form">
+            <div class="section-title">SHIPPING INFORMATION</div>
+
+            <form>
+                <div class="form-group">
+                    <input type="text" placeholder="Full Name">
+                </div>
+
+                <div class="form-group">
+                    <input type="email" placeholder="Email Address">
+                </div>
+
+                <div class="form-group">
+                    <input type="tel" placeholder="Phone Number">
+                </div>
+
+                <div class="form-group">
+                    <input type="text" placeholder="Addresses">
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="text" placeholder="City">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Postal Code">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <select>
+                        <option value="" disabled selected hidden>Country</option>
+                        <option value="US">United States</option>
+                        <option value="CA">Canada</option>
+                        <option value="UK">United Kingdom</option>
+                    </select>
+                </div>
+
+                <div class="shipping-methods">
+                    <div class="section-title">SHIPPING METHOD</div>
+
+                    <div class="shipping-option selected">
+                        <div class="shipping-left">
+                            <div class="radio-custom"></div>
+                            <div>
+                                <div class="shipping-title">STANDARD SHIPPING</div>
+                                <div class="shipping-desc">3-5 business days</div>
+                            </div>
+                        </div>
+                        <div class="shipping-price">$4.99</div>
+                    </div>
+
+                    <div class="shipping-option">
+                        <div class="shipping-left">
+                            <div class="radio-unselected"></div>
+                            <div>
+                                <div class="shipping-title unselected">EXPRESS SHIPPING</div>
+                                <div class="shipping-desc">1-2 business days</div>
+                            </div>
+                        </div>
+                        <div class="shipping-price unselected">$9.99</div>
+                    </div>
+                </div>
+
+                <button type="button" class="btn-submit">CONTINUE TO PAYMENT</button>
+            </form>
+        </div>
+
+        <div class="summary-card">
+            <div class="summary-title">ORDER SUMMARY</div>
+
+            <div class="cart-item">
+                <img src="images/standard.png" alt="Optimum Nutrition Whey" class="item-image">
+                <div class="item-details">
+                    <div class="item-name">Optimum Nutrition Gold Standard Whey</div>
+                    <div class="item-subtext">2.27 kg / Chocolate</div>
+                </div>
+                <div class="item-price-info">
+                    <div class="item-price">$54.99</div>
+                    <div class="item-qty">Qty: 1</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <img src="images/creatine.png" alt="Calvexa Creatine" class="item-image">
+                <div class="item-details">
+                    <div class="item-name">Calvexa Nutrition Micronized Creatine Monohydrate</div>
+                    <div class="item-subtext">250g / Unflavored Powder</div>
+                </div>
+                <div class="item-price-info">
+                    <div class="item-price">$19.99</div>
+                    <div class="item-qty">Qty: 1</div>
+                </div>
+            </div>
+
+            <div class="summary-divider"></div>
+
+            <div class="summary-row">
+                <span>Subtotal</span>
+                <span>$74.98</span>
+            </div>
+            <div class="summary-row">
+                <span>Shipping</span>
+                <span>$4.99</span>
+            </div>
+
+            <div class="summary-divider"></div>
+
+            <div class="summary-row total">
+                <span>TOTAL</span>
+                <span class="total-price">$79.97</span>
+            </div>
+        </div>
+    </div>
+</main>
+
+</body>
+</html>

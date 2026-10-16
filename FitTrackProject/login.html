@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fit Track - Products</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<header id="header">
+    <div class="header-container">
+        <a href="index.html" class="logo">FIT <span class="logo-flash"><i class="fa-solid fa-bolt"></i></span> TRACK</a>
+
+        <div class="header-navigation-block">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="products.html" class="active">Products <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="equipment.html">Equipment</a></li>
+                            <li><a href="supplements.html">Supplements</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-right">
+                <div class="search-box">
+                    <input type="text" placeholder="Search products...">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <a href="login.html" class="icon-link"><i class="fa-regular fa-user"></i></a>
+                <a href="cart.html" class="icon-link"><i class="fa-solid fa-bag-shopping"></i></a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div id="body" class="auth-page">
+    <div class="auth-container">
+
+        <header class="auth-header">
+            <h1>WELCOME BACK</h1>
+            <p>Login to your account or create a new one.</p>
+        </header>
+
+        <div class="auth-forms-row">
+
+            <div class="auth-box">
+                <h2>LOGIN</h2>
+                <form id="login-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="login-email">EMAIL</label>
+                        <input type="email" id="login-email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="form-group password-group">
+                        <label for="login-password">PASSWORD</label>
+                        <input type="password" id="login-password" placeholder="Enter your password" required>
+                        <button type="button" class="toggle-password"><i class="fa-regular fa-eye-slash"></i></button>
+                    </div>
+
+                    <div class="form-options">
+                        <label class="checkbox-container">
+                            <input type="checkbox"> Remember me
+                        </label>
+                        <a href="#" class="forgot-link">Forgot password?</a>
+                    </div>
+
+                    <button type="submit" class="auth-btn">LOGIN</button>
+
+                    <div class="social-divider">
+                        <span>Or continue with</span>
+                    </div>
+
+                    <div class="social-buttons">
+                        <a href="#" class="social-btn"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="social-btn"><i class="fa-brands fa-google"></i></a>
+                    </div>
+                </form>
+            </div>
+
+            <div class="auth-box">
+                <h2>REGISTER</h2>
+                <form id="register-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="reg-name">FULL NAME</label>
+                        <input type="text" id="reg-name" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="reg-email">EMAIL</label>
+                        <input type="email" id="reg-email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="form-group password-group">
+                        <label for="reg-password">PASSWORD</label>
+                        <input type="password" id="reg-password" placeholder="Create a password" required>
+                        <button type="button" class="toggle-password"><i class="fa-regular fa-eye-slash"></i></button>
+                    </div>
+
+                    <div class="form-group password-group">
+                        <label for="reg-confirm">CONFIRM PASSWORD</label>
+                        <input type="password" id="reg-confirm" placeholder="Confirm your password" required>
+                        <button type="button" class="toggle-password"><i class="fa-regular fa-eye-slash"></i></button>
+                    </div>
+
+                    <div class="form-options">
+                        <label class="checkbox-container">
+                            <input type="checkbox" required> I agree to the <a href="#" class="accent-link">Terms & Conditions</a>
+                        </label>
+                    </div>
+
+                    <button type="submit" class="auth-btn">CREATE ACCOUNT</button>
+
+                    <div class="social-divider">
+                        <span>Or continue with</span>
+                    </div>
+
+                    <div class="social-buttons">
+                        <a href="#" class="social-btn"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="social-btn"><i class="fa-brands fa-google"></i></a>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<footer>
+
+    <div class="footer-item">
+
+        <i class="fa-solid fa-truck-fast"></i>
+
+        <div>
+
+            <h4>FAST AND FREE SHIPPING</h4>
+
+            <p>On orders over $75</p>
+
+        </div>
+
+    </div>
+
+    <div class="footer-item">
+        <i class="fa-solid fa-shield"></i>
+        <div>
+            <h4>100% AUTHENTIC</h4>
+            <p>Original products only</p>
+        </div>
+    </div>
+
+    <div class="footer-item">
+
+        <i class="fa-solid fa-rotate-left"></i>
+
+        <div>
+
+            <h4>EASY RETURNS</h4>
+
+            <p>30-day return policy</p>
+
+        </div>
+
+    </div>
+
+    <div class="footer-item">
+
+        <i class="fa-solid fa-headset"></i>
+
+        <div>
+
+            <h4>SUPPORT</h4>
+
+            <p>We're here to help</p>
+
+        </div>
+
+    </div>
+
+</footer>
+<script src="login.js"></script>
+</body>
+</html>

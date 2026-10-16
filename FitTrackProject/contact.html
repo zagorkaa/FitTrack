@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fit Track - Contact Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+<header id="header">
+    <div class="header-container">
+        <a href="index.html" class="logo">FIT <span class="logo-flash"><i class="fa-solid fa-bolt"></i></span> TRACK</a>
+
+        <div class="header-navigation-block">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="products.html">Products <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="equipment.html">Equipment</a></li>
+                            <li><a href="supplements.html">Supplements</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-right">
+                <div class="search-box">
+                    <input type="text" placeholder="Search products...">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <a href="login.html" class="icon-link"><i class="fa-regular fa-user"></i></a>
+                <a href="cart.html" class="icon-link"><i class="fa-solid fa-bag-shopping"></i></a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="page-content">
+    <div class="header-title">GET IN TOUCH</div>
+
+    <div class="contact-container">
+
+        <div class="contact-form-card">
+            <div class="section-title">SEND US A MESSAGE</div>
+            <form>
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="text" placeholder="First Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Last Name" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+
+                <div class="form-group">
+                    <select>
+                        <option value="" disabled selected hidden>Select Subject</option>
+                        <option value="order">Order Status & Tracking</option>
+                        <option value="product">Product Support</option>
+                        <option value="returns">Returns & Refunds</option>
+                        <option value="other">General Inquiry</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <textarea rows="5" placeholder="Your Message..." required></textarea>
+                </div>
+
+                <button type="button" class="btn-submit">SEND MESSAGE</button>
+            </form>
+        </div>
+
+        <div class="info-sidebar">
+            <div class="info-card">
+                <div class="info-item">
+                    <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div>
+                        <div class="info-label">HEADQUARTERS</div>
+                        <div class="info-value">100 Performance Way, Suite 500<br>Austin, TX 78701</div>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                    <div>
+                        <div class="info-label">PHONE SUPPORT</div>
+                        <div class="info-value">+1 (800) 555-TRACK</div>
+                        <div class="info-subtext">Mon–Fri: 8am – 8pm EST</div>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div>
+                        <div class="info-label">EMAIL US</div>
+                        <div class="info-value">support@fittrack.com</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social-block">
+                <div class="info-label">CONNECT WITH US</div>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+</body>
+</html>

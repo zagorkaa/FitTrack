@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c77b8262-3a0d-4823-8a45-77c3c521ab77" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Protein.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/products.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="3.7361919311024715E-6" />
+      <entry key="MS500" value="0.08212697669683568" />
+      <entry key="S2" value="0.5353298482544145" />
+      <entry key="S5" value="0.7788406015955639" />
+      <entry key="S10" value="0.8825194624457663" />
+      <entry key="S30" value="0.9592053751827533" />
+      <entry key="S60" value="0.9835240696468509" />
+      <entry key="M2" value="1.10478405199371" />
+      <entry key="M5" value="2.5777721094302657" />
+      <entry key="M10" value="7.645146299135134" />
+      <entry key="M15" value="16.235847986417777" />
+      <entry key="M30" value="60.20998864633388" />
+      <entry key="H1" value="158.08036078299315" />
+      <entry key="H2" value="314.4397022137769" />
+      <entry key="H4" value="499.0600152647255" />
+      <entry key="D1" value="800.326932316061" />
+      <entry key="W1" value="875.5605098169051" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0000000000004612" />
+      <entry key="S60" value="1.0000009574128763" />
+      <entry key="M2" value="1.0013947477941385" />
+      <entry key="M5" value="1.1330195068637272" />
+      <entry key="M10" value="1.8787916687636734" />
+      <entry key="M15" value="2.9742990627365327" />
+      <entry key="M30" value="6.7399084957244115" />
+      <entry key="H1" value="14.159840694916392" />
+      <entry key="H2" value="26.485825405933767" />
+      <entry key="H4" value="41.355029727421794" />
+      <entry key="D1" value="65.79232779695234" />
+      <entry key="W1" value="71.9073262016331" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="3.207524086110199E-5" />
+      <entry key="MS500" value="0.15943440202329048" />
+      <entry key="S2" value="1.0229566831251697" />
+      <entry key="S5" value="1.524474091777458" />
+      <entry key="S10" value="1.7451527941374636" />
+      <entry key="S30" value="1.9109346636833195" />
+      <entry key="S60" value="1.959062910793728" />
+      <entry key="M2" value="2.09373862166258" />
+      <entry key="M5" value="3.7026413553681934" />
+      <entry key="M10" value="9.513744519618244" />
+      <entry key="M15" value="19.198871766804377" />
+      <entry key="M30" value="66.93761888600869" />
+      <entry key="H1" value="172.22625950222852" />
+      <entry key="H2" value="340.9088606459396" />
+      <entry key="H4" value="540.3991834322883" />
+      <entry key="D1" value="866.1142372836931" />
+      <entry key="W1" value="947.4670282141681" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3GSJeDsjiq5zGiTPCYYBcF58s1B" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/anevs/OneDrive/Desktop/FitTrackk",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\anevs\OneDrive\Desktop\FitTrackk" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\anevs\OneDrive\Desktop\FitTrackk" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.25134.101" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c77b8262-3a0d-4823-8a45-77c3c521ab77" name="Changes" comment="" />
+      <created>1783959130380</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1783959130380</updated>
+      <workItem from="1783959132098" duration="136000" />
+      <workItem from="1783959272304" duration="2000" />
+      <workItem from="1783967907520" duration="166000" />
+      <workItem from="1784013178648" duration="11644000" />
+      <workItem from="1784031617485" duration="1653000" />
+      <workItem from="1784385135584" duration="6230000" />
+      <workItem from="1786385492581" duration="6000" />
+      <workItem from="1786385521347" duration="3044000" />
+      <workItem from="1786389093173" duration="1256000" />
+      <workItem from="1786423556610" duration="198000" />
+      <workItem from="1787760316377" duration="65000" />
+      <workItem from="1787760410948" duration="2093000" />
+      <workItem from="1789918563446" duration="366000" />
+      <workItem from="1792093562200" duration="766000" />
+      <workItem from="1792096314649" duration="1254000" />
+      <workItem from="1792134054155" duration="5888000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
